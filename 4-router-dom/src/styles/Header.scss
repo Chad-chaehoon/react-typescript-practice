@@ -1,0 +1,27 @@
+.header {
+  text-align: center;
+  background-color: #222;
+  height: 160px;
+  padding: 20px;
+  color: white;
+}
+
+.header-title {
+  font-size: 1.5em;
+  color: white;
+  margin-top: 50px;
+}
+.header-link {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+.header-link-active {
+  border-bottom: #ebebeb solid 2px;
+}
+
+.search-container {
+  text-align: right;
+  margin-bottom: -25px;
+  color: black;
+}

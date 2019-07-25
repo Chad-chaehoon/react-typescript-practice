@@ -1,0 +1,70 @@
+{
+  "name": "boilerplate-typescript",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.20.3",
+    "aws-amplify": "^1.1.30",
+    "axios": "^0.19.0",
+    "babel-plugin-import": "^1.12.0",
+    "customize-cra": "^0.2.14",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "lodash": "^4.17.14",
+    "node-sass": "^4.12.0",
+    "prettier": "^1.18.2",
+    "react": "^16.8.6",
+    "react-app-rewired": "^2.1.3",
+    "react-bootstrap": "^1.0.0-beta.9",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "react-transition-group": "^4.2.1",
+    "redux": "^4.0.4",
+    "redux-actions": "^2.6.5",
+    "redux-pender": "^2.0.12",
+    "redux-thunk": "^2.3.0",
+    "tslint": "^5.18.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-react": "^4.0.0",
+    "url-search-params-polyfill": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.15",
+    "@types/lodash": "^4.14.136",
+    "@types/node": "^12.6.6",
+    "@types/react": "^16.8.23",
+    "@types/react-bootstrap": "^0.32.19",
+    "@types/react-dom": "^16.8.4",
+    "@types/react-redux": "^7.1.1",
+    "@types/react-router-dom": "^4.3.4",
+    "@types/react-transition-group": "^4.2.0",
+    "@types/redux-actions": "^2.6.1",
+    "@types/redux-logger": "^3.0.7",
+    "redux-logger": "^3.0.6",
+    "typescript": "^3.5.3"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
